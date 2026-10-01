@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page 1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        img {
+            display: block;
+            width: 100%;
+            flex: 1;
+            min-height: 0;
+            object-fit: contain;
+        }
+        .footer {
+            position: fixed;
+            right: 24px;
+            bottom: 24px;
+            padding: 0;
+        }
+        .footer a {
+            display: inline-block;
+            padding: 14px 28px;
+            border-radius: 8px;
+            background-color: #2563eb;
+            color: #fff;
+            font: 600 16px/1.2 Arial, sans-serif;
+            text-decoration: none;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 25%);
+        }
+        .footer a:hover {
+            background-color: #1d4ed8;
+        }
+        .footer a:focus-visible {
+            outline: 3px solid #fff;
+            outline-offset: 3px;
+        }
+    </style>
+</head>
+<body>
+    <img src="page1.jpg" alt="Page 1">
+    <div class="footer">
+        <a href="page2.html">Next</a>
+    </div>
+</body>
+</html>
